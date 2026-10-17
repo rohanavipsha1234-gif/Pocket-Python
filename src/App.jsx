@@ -124,7 +124,14 @@ export default function App() {
         <article><b>Autosave locally</b><p>Your draft stays in this browser on this device.</p></article>
         <article><b>Keep your .py files</b><p>Download scripts or open ones already on your phone.</p></article>
       </section>
+      <div className="indent-tip">
+  💡 <strong>Indentation Tip:</strong> For indentation in Python,
+  press the space bar 4 times.
+</div>
       <aside><b>Quick tip</b> Use your browser menu → “Add to Home screen” to launch Pocket Python like an app. Download important scripts as backups.</aside>
+      <footer className="creator-credit">
+  Made with ❤️ by Rohan Das
+</footer>
       <p className="privacy">Your code is stored in this browser. Clearing browser data can erase drafts, so download important files as backups. Python runtime loads from the internet the first time you run code.</p>
     </main>
     <footer><span><Code2 size={15}/> PocketPython</span><span>Made for learning, wherever you are.</span></footer>
