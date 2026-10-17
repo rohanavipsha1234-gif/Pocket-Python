@@ -22,3 +22,18 @@ aside{display:flex;gap:10px;margin-top:17px;padding:14px 16px;background:#8b5cf6
 footer{border-top:1px solid #ffffff10;max-width:1120px;margin:auto;padding:21px 28px;display:flex;justify-content:space-between;gap:12px;color:#74788e;font-size:10px}footer span:first-child{display:flex;align-items:center;gap:7px;color:#b5addf;font-weight:800}
 @media(max-width:700px){.topbar{height:62px;padding:0 14px}.brand{font-size:16px}.pill{padding:7px 8px;font-size:9px}main{padding:30px 13px 28px}.hero{margin-bottom:23px}h1{letter-spacing:-1.4px;font-size:clamp(32px,9vw,43px)}.hero p{font-size:12px;padding:0 7px}.workspace{grid-template-columns:minmax(0,1fr);gap:13px}.editor{min-height:260px}.console{min-height:270px}.console pre{min-height:165px}.features{grid-template-columns:1fr;gap:8px}.features article{padding:13px}footer{padding:18px 14px;font-size:9px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+.indent-tip {
+  padding: 12px 16px;
+  margin: 12px 0;
+  border-radius: 10px;
+  background: #1e293b;
+  color: #e2e8f0;
+  font-size: 14px;
+}
+
+.creator-credit {
+  text-align: center;
+  padding: 20px 12px;
+  color: #94a3b8;
+  font-size: 14px;
+}
